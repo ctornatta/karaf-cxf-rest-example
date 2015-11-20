@@ -4,7 +4,8 @@
   "labels": {},
   "metadata": {
     "annotations": {
-      "description": "# Karaf CXF REST QuickStart\n\nThis quickstart demonstrates how to create a RESTful (JAX-RS) web service using CXF and expose it through the OSGi HTTP Service.\n\nThe REST service provides a customer service that supports the following operations\n\n- PUT /customerservice/customers/ - to create or update a customer\n- GET /customerservice/customers/{id} - to view a customer with the given id\n- DELETE /customerservice/customers/{id} - to delete a customer with the given id\n- GET /customerservice/orders/{orderId} - to view an order with the given id\n- GET /customerservice/orders/{orderId}/products/{productId} - to view a specific product on an order with the given id\n\nWhen the application is deployed, you can access the REST service using a web browser.\n\n\n      "iconClass": "icon-java"
+      "description": "# Karaf CXF REST QuickStart\n\nThis quickstart demonstrates how to create a RESTful (JAX-RS) web service using CXF and expose it through the OSGi HTTP Service.\n\nThe REST service provides a customer service that supports the following operations\n\n- PUT /customerservice/customers/ - to create or update a customer\n- GET /customerservice/customers/{id} - to view a customer with the given id\n- DELETE /customerservice/customers/{id} - to delete a customer with the given id\n- GET /customerservice/orders/{orderId} - to view an order with the given id\n- GET /customerservice/orders/{orderId}/products/{productId} - to view a specific product on an order with the given id\n\nWhen the application is deployed, you can access the REST service using a web browser.\n\n\n",
+      "iconClass": "icon-java"
     },
     "labels": {},
     "name": "s2i-quickstart-karaf-cxf-rest"
